@@ -4,6 +4,7 @@ import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <UserProfile name="Andiswa Mnguni" age={30} bio="Front-end developer passionate about user-friendly apps." />
       <MainContent />
+      <Counter />
       <Footer />
     </div>
   );
