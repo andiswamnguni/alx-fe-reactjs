@@ -14,7 +14,7 @@ function MainContent() {
     }}>
       <h2 style={{ color: '#282c34', marginBottom: '10px' }}>Main Content</h2>
       <p style={{ fontSize: '16px', color: '#555', lineHeight: '1.6' }}>
-        This is the main content section of the application. You can add more components and sections here.
+        I love to visit New York, Paris, and Tokyo.
       </p>
     </main>
   );
