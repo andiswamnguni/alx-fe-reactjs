@@ -16,7 +16,7 @@ function App() {
       padding: 0
     }}>
       <Header />
-      <UserProfile />
+      <UserProfile name="Andiswa Mnguni" age={30} bio="Front-end developer passionate about user-friendly apps." />
       <MainContent />
       <Footer />
     </div>

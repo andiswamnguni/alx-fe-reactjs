@@ -1,22 +1,22 @@
 // src/components/UserProfile.jsx
 import React from 'react';
 
-function UserProfile() {
+function UserProfile({ name = "John Doe", age = 30, bio = "A passionate developer." }) {
   return (
-    <section style={{
-      backgroundColor: '#ffffff',
-      color: '#333',
+    <div style={{
+      border: '2px solid blue',
+      borderRadius: '10px',
       padding: '20px',
       margin: '20px auto',
-      borderRadius: '8px',
       maxWidth: '400px',
-      boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-      textAlign: 'center'
+      textAlign: 'center',
+      backgroundColor: '#f0f8ff',  // light blue background
+      boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
     }}>
-      <h2 style={{ marginBottom: '10px' }}>User Profile</h2>
-      <p>Name: John Doe</p>
-      <p>Email: johndoe@example.com</p>
-    </section>
+      <h2 style={{ color: 'blue', marginBottom: '10px' }}>{name}</h2>
+      <p style={{ margin: '5px 0' }}>Age: <span style={{ fontWeight: 'bold' }}>{age}</span></p>
+      <p style={{ margin: '5px 0', color: '#555' }}>Bio: {bio}</p>
+    </div>
   );
 }
 
