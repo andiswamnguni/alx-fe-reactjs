@@ -1,7 +1,12 @@
+// src/components/Header.jsx
 import React from 'react';
 
 function Header() {
-  return <header>Header</header>;
+  return (
+    <header style={{ backgroundColor: 'blue', color: 'white', textAlign: 'center' }}>
+      Header
+    </header>
+  );
 }
 
 export default Header;
