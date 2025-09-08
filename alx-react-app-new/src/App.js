@@ -1,10 +1,9 @@
-// src/App.jsx
 import React from 'react';
 import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 import MainContent from './components/MainContent';
-import Footer from './components/Footer';
 import Counter from './components/Counter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,7 +16,11 @@ function App() {
       padding: 0
     }}>
       <Header />
-      <UserProfile name="Andiswa Mnguni" age={30} bio="Front-end developer passionate about user-friendly apps." />
+      <UserProfile 
+        name="Andiswa Mnguni" 
+        age={30} 
+        bio="Front-end developer passionate about user-friendly apps." 
+      />
       <MainContent />
       <Counter />
       <Footer />
