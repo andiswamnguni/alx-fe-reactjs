@@ -16,8 +16,8 @@ function Search() {
     setUsers([]);
 
     try {
-      const data = await fetchUsers({ username, location, minRepos });
-      setUsers(data.items); // <-- multiple users
+    const data = await fetchUserData({ username, location, minRepos });
+    setUsers(data.items);  
     } catch (err) {
       setError(true);
     } finally {
