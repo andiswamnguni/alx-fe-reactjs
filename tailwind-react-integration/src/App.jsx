@@ -1,11 +1,12 @@
+// src/App.jsx
+import UserProfile from "./components/UserProfile";
+
 function App() {
   return (
-    <div className="text-center mt-20">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Tailwind is Working!
-      </h1>
+    <div>
+      <UserProfile />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
